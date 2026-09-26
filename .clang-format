@@ -1,0 +1,28 @@
+Language: C
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+# UseTab: Always
+UseTab: ForContinuationAndIndentation
+BreakBeforeBraces: Attach
+PointerAlignment: Left
+ColumnLimit: 80
+AlignEscapedNewlines: Left
+
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignFunctionDeclarations: true
+
+SpaceAfterCStyleCast: false
+
+AllowShortIfStatementsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+AlignTrailingComments:
+  Kind: Leave
+
+SortIncludes: Never
+
+Standard: Latest

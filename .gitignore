@@ -1,0 +1,14 @@
+app
+*.o
+*.d
+.vscode/
+test_*
+!test_*.c
+!test_*.h
+build/
+compile_commands.json
+.cache/
+.clangd/
+sim_server
+sim_client
+temp/
